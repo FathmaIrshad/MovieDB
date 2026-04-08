@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212; /* Deep dark background */
+  padding: 10px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+.logo {
+  color: #e50914; /* Netflix-style Red */
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  border-radius: 4px;
+  padding: 5px 12px;
+}
+
+.search-container input {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 5px;
+  outline: none;
+  width: 180px;
+}
+
+.search-container button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.search-container button:hover {
+  background-color: #b20710;
+}
+.nav-links button {
+  text-decoration: none;
+  color: #e5e5e5;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links button:hover {
+  color: #ffffff; /* Brighter white on hover */
+}
