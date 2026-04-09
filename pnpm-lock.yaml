@@ -8338,7 +8338,7 @@ packages:
       integrity: sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
   /husky/4.3.8:
     dependencies:
-      chalk: 4.1.2
+      chalk: 4.1.0
       ci-info: 2.0.0
       compare-versions: 3.6.0
       cosmiconfig: 7.1.0
